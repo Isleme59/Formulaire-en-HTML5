@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire D'inscription</title>
 </head>
 <body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="#" method="post">
+    <fieldset>  
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+  
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+     
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+    </fieldset>  
+    <fieldset>
+        <label>sexe:</label>
+        <input type="radio" id="sexehomme" name="sexe" value="homme" required>
+        <label for="sexehomme">homme</label>
+        <input type="radio" id="sexefemme" name="sexe" value="femme" required>
+        <label for="sexefemme">femme</label>
+    </fieldset>
+    <fieldset>  
+        <label for="email">Adresse mail:</label>
+        <input type="text" id="email" name="email" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="adressepostale">Adresse postale:</label>
+        <input type="text" id="adressepostale" name="adressepostale" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="code_postal">Code Postale:</label>
+        <input type="text" id="code_postal" name="codepostale" minlength="5" maxlength="5" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="ville">Ville:</label>
+        <input type="text" id="ville" name="ville" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Métierexercé">Métier exercé:</label>
+        <input type="text" id="Métierexercé" name="Métierexercé" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Nationalité">Nationalité:</label>
+        <input type="text" id="Nationalité" name="Nationalité" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Datedenaissance">Date de naissance:</label>
+        <input type="date" id="Datedenaissance" name="Datedenaissance" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Paysdenaissance">Pays de naissance:</label>
+        <input type="text" id="Paysdenaissance" name="Paysdenaissance" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Numérodesécuritésocial">Numéro de sécurité social:</label>
+        <input type="text" id="Numérodesécuritésocial" name="Numérodesécuritésocial" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Numérodupasseport">Numéro du passeport:</label>
+        <input type="text" id="Numérodupasseport" name="Numérodupasseport" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Datededélivrancedupasseport">Date de délivrance du passeport:</label>
+        <input type="date" id="Datededélivrancedupasseport" name="Datededélivrancedupasseport" required><br>
+    </fieldset>
+    <fieldset>  
+        <label for="Datedevaliditédupasseport">Date de validité du passeport:</label>
+        <input type="date" id="Datedevaliditédupasseport" name="Datedevaliditédupasseport" required><br>
+    </fieldset>
+    </form>
     
 </body>
 </html>
